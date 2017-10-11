@@ -19,11 +19,7 @@ conn = pymssql.connect(server=db_url,
 # Create a database cursor
 cursor = conn.cursor()
 
-# Replace this nonsense with your own query :)
-query = """SELECT T.EXTERNAL_ID, T.CODE, T.DETAILING, T.HINT FROM (
-SELECT  EXTERNAL_ID, SUBSTRING(PAYLOAD, 66, 3)  as CODE,  SUBSTRING(PAYLOAD, 89, 1)  as DETAILING,SUBSTRING(PAYLOAD, 26, 2) as HINT FROM LOG_ADAPTER_PEGASUS_NOTIFICATION
-where  DESCRIPTION ='BILLING_AUTHORIZATION'
-) AS T  WHERE T.CODE <> '00"'"""
+query=open('query.txt', 'r').read()
 
 # Execute the query
 cursor.execute(query)
