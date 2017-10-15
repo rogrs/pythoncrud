@@ -1,2 +1,2 @@
-# pythoncrud
+# pythoncrud  [![Build Status](https://travis-ci.org/rogrs/pythoncrud.svg?branch=master)](https://travis-ci.org/rogrs/pythoncrud) [![Dependency Status](https://david-dm.org/rogrs/pythoncrud.svg)](https://david-dm.org/rogrs/pythoncrud) [![devDependency Status](https://david-dm.org/rogrs/pythoncrud/dev-status.svg)](https://david-dm.org/rogrs/pythoncrud#info=devDependencies) [![peerDependency Status](https://david-dm.org/rogrs/pythoncrud/peer-status.svg)](https://david-dm.org/rogrs/pythoncrud#info=peerDependencies)
 Crud basico em Python + MySQL
