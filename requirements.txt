@@ -1,3 +1,5 @@
 virtualenv
 MySQL-python
 mysqlclient
+nose
+sphinx
