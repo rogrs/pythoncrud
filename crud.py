@@ -2,12 +2,6 @@
 '''
 MySQL CRUD (Create Retrieve Update Delete) Operations using Python
 '''
-__author__ = "Alessandro Cucci"
-
-__license__ = "MIT"
-__version__ = "0.0.1"
-__email__ = "alessandro.cucci@gmail.com"
-__status__ = "Development"
 
 
 # Import MySQLdb       $ sudo apt-get install python-mysqldb
