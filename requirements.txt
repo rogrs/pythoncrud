@@ -3,3 +3,4 @@ MySQL-python
 mysqlclient
 nose
 sphinx
+codecov
