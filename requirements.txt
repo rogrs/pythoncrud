@@ -4,3 +4,5 @@ mysqlclient
 nose
 sphinx
 codecov
+pytest 
+pytest-cov
